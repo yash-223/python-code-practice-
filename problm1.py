@@ -1,0 +1,18 @@
+set = set()
+
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+n = input("Enter a numbe : ")
+set.add(int(n))
+
+print(set)
