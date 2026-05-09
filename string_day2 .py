@@ -65,3 +65,44 @@ def is_palindrome(a):
     return a == a[::-1]
 
 print(is_palindrome("madam"))
+
+# 13. Extract characters from index 2 to index 8 with a step of 2
+
+a = "programming"
+
+print(a[2:8:2])
+
+# 14. Swap the first and second halves of a string and print the result
+
+a = "python"
+
+mid = len(a) // 2
+
+print(a[mid:] + a[:mid])
+
+# 15. Create a new string with characters only at odd indices
+
+a = "programming"
+
+print(a[1::2])
+
+# 16. Extract the last 4 characters of a string without using len()
+
+a = "programming"
+
+print(a[-4:])
+
+# 17. Reverse a portion of the string from index 2 to 7
+
+a = "programming"
+
+print(a[2:8][::-1])
+
+# 18. Ask the user for a string and start/end indices, then print the sliced result
+
+a = input("Enter string: ")
+
+start = int(input("Enter start index: "))
+end = int(input("Enter end index: "))
+
+print(a[start:end])
