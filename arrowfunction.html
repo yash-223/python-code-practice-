@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        let square = (a) => {
+            document.write("square of given no is : " + (a*a));
+        }
+        square(5);
+
+        // write a function which accepts no from users using prompt 
+        //  and calculate cube of given no 
+      let areaofcircle = () => {
+            let r = parseInt(prompt("enter radius of circle"));
+            document.write("<br>area of circle is : " + (3.14 * r * r));
+        }
+        areaofcircle();
+
+        // Write an arrow function which accepts side of square and prints area of square.
+        let areaOfSquare = (side) => {
+               
+             document.write("<br>area of square is : " + (side * side));
+        }
+        areaOfSquare(5); 
+        
+
+        
+         
+       // Write an arrow function which accepts principle amt, rate of interest, and no of years, calculate simple interest.
+         let simpleInterest = (p, r, t) => {
+                let si = (p * r * t) / 100;
+                document.write("<br>Simple Interest is : " + si);
+          }
+          simpleInterest(10000, 5, 2);
+
+
+
+
+       // Write an arrow function which accepts no and print all even no between 1 to given no.
+       let printEvenNumbers = (n) => {
+            document.write("<br>Even numbers between 1 and " + n + " are: ");
+            for (let i = 2; i <= n; i += 2) {
+                document.write(i + " ");
+            }
+        }
+        printEvenNumbers(10);
+    
+    
+    
+    
+    </script>
+
+
+    
+</body>
+</html>

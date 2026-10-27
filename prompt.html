@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script > 
+       function add()
+        {
+            let name = parseInt(prompt("enter number 1"));
+            let age = parseInt(prompt("enter number 2"));
+            document.write("result of addition is : " + (name+age));
+        }
+        add();
+
+        function sub(a,b)
+        {
+            document.write("<br>result of subtraction is : " + (a-b));
+        }
+sub(10,5);
+
+       function mul(a,b)
+        {
+            return a*b;
+        }
+        let result = mul(10,5);
+        document.write("<br>result of multiplication is : " + result);
+
+
+        // anynomus function 
+        let demo = function ()
+        {
+            document.write("<br>Good afternoon");
+        }
+        demo();
+
+       
+    </script>
+        
+    
+</body>
+</html>
